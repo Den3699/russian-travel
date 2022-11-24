@@ -5,8 +5,19 @@
   color: white;
   text-underline-offset: 4px;
   text-decoration: none;
-  
+  max-width: 29px;
+  max-height: 28px;
+
 }
 .header__lang-link:hover {
   color: #d4d5d5;
+}
+
+@media screen and (max-width: 500px) {
+  .header__lang-link {
+    max-width: 22px;
+    max-height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+  }
 }
