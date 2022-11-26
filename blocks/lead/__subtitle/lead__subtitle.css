@@ -5,8 +5,7 @@
   margin: 16px auto 64px auto;
   max-width: 640px;
   text-align: center;
-  align-self: center;
-}
+  }
 
 @media screen and (max-width: 1100px) {
   .lead__subtitle {
@@ -16,8 +15,8 @@
 
 @media screen and (max-width: 500px) {
   .lead__subtitle {
-    margin: 8px auto 64px auto;
-    max-width: 288px;
+    margin: 8px auto 40px auto;
+    max-width: calc(100vw - 16px * 2);
     font-size: 16px;
     line-height: 20px;
   }
