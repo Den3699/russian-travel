@@ -4,13 +4,13 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 990px) {
   .content {
     grid-row-gap: 88px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .content {
     grid-row-gap: 64px;
   }

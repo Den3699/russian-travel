@@ -1,5 +1,4 @@
 .lead__caption {
-
   font-size: 10px;
   line-height: 14px;
   align-self: start;
@@ -9,14 +8,14 @@
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 990px) {
   .lead__caption {
-    margin: 8px 24px 0;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .lead__caption {
-    margin: 8px 16px 0;
+    padding-left: 16px;
   }
 }
