@@ -1,0 +1,9 @@
+.cover__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  height: 100%;
+  z-index: 1;
+  color: #fff;
+}
